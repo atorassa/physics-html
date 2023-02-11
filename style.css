@@ -1,0 +1,326 @@
+
+* {
+border: 0;
+margin: 0;
+padding: 0;
+outline: 0;
+}
+
+body {
+color: #000;
+background-color: #fff;
+font-family: "Times New Roman", Times, serif;
+letter-spacing: 1.2px;
+text-align: justify;
+line-height: 1.5;
+font-size: 108%;
+}
+
+div.s {
+color: #000;
+padding: 0 1.5em;
+background-color: #fff;
+}
+
+div#v {
+color: #000;
+height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background-color: #fff;
+}
+
+p, h1, h2, h3 {
+margin: 0.75em 0;
+}
+
+h1, h2 {
+background-color: #fff;
+text-align: center;
+line-height: 1.2;
+color: #336699;
+}
+
+h3 {
+background-color: #fff;
+text-align: center;
+line-height: 1.3;
+color: #336666;
+}
+
+h2.r, p.r {
+margin: 0.03em 0;
+}
+
+p.d {
+margin: 0;
+}
+
+p.k {
+text-align: left;
+}
+
+p.b {
+background-color: #fff;
+color: #336699;
+}
+
+p.c {
+text-align: center;
+}
+
+p.h {
+line-height: 1.8;
+}
+
+b.e {
+background-color: #fff;
+color: #454545;
+}
+
+span.u {
+display: inline-block;
+}
+
+span.i {
+margin-top: 0.31em;
+margin-bottom: 0.31em;
+}
+
+span.x {
+margin-top: 0.31em;
+margin-right: 0.31em;
+margin-bottom: 0.31em;
+}
+
+a:link {
+background-color: #fff;
+text-decoration: none;
+color: #c63636;
+}
+
+a:hover {
+background-color: #fff;
+text-decoration: none;
+color: #336666;
+}
+
+a:active {
+background-color: #fff;
+text-decoration: none;
+color: #336666;
+}
+
+a:visited {
+background-color: #fff;
+text-decoration: none;
+color: #c63636;
+}
+
+a:visited:hover {
+background-color: #fff;
+text-decoration: none;
+color: #336666;
+}
+
+a.y {
+border-radius: 4px;
+border-color: #d8d8d8;
+border-width: 0.076em;
+border-style: solid;
+padding-top: 0.38em;
+padding-left: 0.94em;
+padding-right: 0.94em;
+padding-bottom: 0.38em;
+}
+
+hr {
+background-color: #d8d8d8;
+color: #d7d7d7;
+border: 0;
+width: 100%;
+height: 0.076em;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+img {
+border: none;
+}
+
+.i000, .i180, .i270, .i530, .i170,
+.i531, .i550, .i581, .i640, .i650,
+.i490, .i580, .i070, .i071, .i500,
+.i590, .i560, .i520, .i290, .i411,
+.i600, .i210, .i632, .i630, .i410,
+.i150, .i591, .i260, .i240, .i321,
+.i461, .i460, .i620, .i621, .i431,
+.i401, .i430, .i320, .i310, .i400,
+.i641, .i280, .i300, .i330, .i200,
+.i220, .i413, .i412, .i720, .i421,
+.i420, .i140, .i160, .i721, .i350,
+.i230, .i441, .i440, .i450, .i250,
+.i331, .i311, .i120, .i172, .i491,
+.i670, .i671, .i190, .i171, .i481,
+.i633, .i480, .i631, .i340, .i360,
+.i690, .i691, .i380, .i681, .i710,
+.i680, .i610, .i611, .i110, .i130,
+.i711, .i540, .i510, .i660, .i050,
+.i060, .i541, .i661, .i010, .i020,
+.i551, .i030, .i700, .i701, .i262,
+.i080, .i470, .i370, .i261, .i390,
+.i100, .i570, .i040, .i090 {
+display: inline-block; background: url('images.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.i000 { background-position: -0px -0px; width: 272px; height: 222px; }
+.i180 { background-position: -0px -222px; width: 272px; height: 41px; }
+.i270 { background-position: -0px -263px; width: 272px; height: 41px; }
+.i530 { background-position: -0px -304px; width: 272px; height: 18px; }
+.i170 { background-position: -0px -322px; width: 268px; height: 14px; }
+.i531 { background-position: -0px -336px; width: 268px; height: 18px; }
+.i550 { background-position: -0px -354px; width: 268px; height: 54px; }
+.i581 { background-position: -0px -408px; width: 268px; height: 65px; }
+.i640 { background-position: -0px -473px; width: 267px; height: 54px; }
+.i650 { background-position: -0px -527px; width: 266px; height: 46px; }
+.i490 { background-position: -0px -573px; width: 265px; height: 14px; }
+.i580 { background-position: -0px -587px; width: 264px; height: 64px; }
+.i070 { background-position: -0px -651px; width: 259px; height: 21px; }
+.i071 { background-position: -0px -672px; width: 258px; height: 21px; }
+.i500 { background-position: -0px -693px; width: 258px; height: 41px; }
+.i590 { background-position: -0px -734px; width: 247px; height: 56px; }
+.i560 { background-position: -0px -790px; width: 238px; height: 58px; }
+.i520 { background-position: -0px -848px; width: 234px; height: 41px; }
+.i290 { background-position: -0px -889px; width: 223px; height: 21px; }
+.i411 { background-position: -0px -910px; width: 216px; height: 21px; }
+.i600 { background-position: -0px -931px; width: 215px; height: 46px; }
+.i210 { background-position: -0px -977px; width: 212px; height: 21px; }
+.i632 { background-position: -0px -998px; width: 207px; height: 54px; }
+.i630 { background-position: -0px -1052px; width: 206px; height: 55px; }
+.i410 { background-position: -0px -1107px; width: 205px; height: 14px; }
+.i150 { background-position: -0px -1121px; width: 201px; height: 21px; }
+.i591 { background-position: -0px -1142px; width: 196px; height: 56px; }
+.i260 { background-position: -0px -1198px; width: 194px; height: 14px; }
+.i240 { background-position: -0px -1212px; width: 193px; height: 21px; }
+.i321 { background-position: -0px -1233px; width: 189px; height: 34px; }
+.i461 { background-position: -0px -1267px; width: 187px; height: 21px; }
+.i460 { background-position: -0px -1288px; width: 185px; height: 21px; }
+.i620 { background-position: -0px -1309px; width: 184px; height: 41px; }
+.i621 { background-position: -0px -1350px; width: 181px; height: 41px; }
+.i431 { background-position: -0px -1391px; width: 180px; height: 41px; }
+.i401 { background-position: -0px -1432px; width: 179px; height: 41px; }
+.i430 { background-position: -0px -1473px; width: 179px; height: 41px; }
+.i320 { background-position: -0px -1514px; width: 178px; height: 34px; }
+.i310 { background-position: -0px -1548px; width: 177px; height: 34px; }
+.i400 { background-position: -0px -1582px; width: 177px; height: 41px; }
+.i641 { background-position: -0px -1623px; width: 177px; height: 54px; }
+.i280 { background-position: -0px -1677px; width: 176px; height: 21px; }
+.i300 { background-position: -0px -1698px; width: 175px; height: 21px; }
+.i330 { background-position: -0px -1719px; width: 175px; height: 34px; }
+.i200 { background-position: -0px -1753px; width: 173px; height: 21px; }
+.i220 { background-position: -0px -1774px; width: 171px; height: 21px; }
+.i413 { background-position: -0px -1795px; width: 171px; height: 21px; }
+.i412 { background-position: -0px -1816px; width: 169px; height: 21px; }
+.i720 { background-position: -0px -1837px; width: 168px; height: 44px; }
+.i421 { background-position: -0px -1881px; width: 167px; height: 21px; }
+.i420 { background-position: -0px -1902px; width: 165px; height: 21px; }
+.i140 { background-position: -0px -1923px; width: 161px; height: 21px; }
+.i160 { background-position: -0px -1944px; width: 160px; height: 21px; }
+.i721 { background-position: -0px -1965px; width: 160px; height: 44px; }
+.i350 { background-position: -0px -2009px; width: 157px; height: 21px; }
+.i230 { background-position: -0px -2030px; width: 155px; height: 21px; }
+.i441 { background-position: -0px -2051px; width: 155px; height: 41px; }
+.i440 { background-position: -0px -2092px; width: 153px; height: 41px; }
+.i450 { background-position: -0px -2133px; width: 153px; height: 41px; }
+.i250 { background-position: -0px -2174px; width: 152px; height: 21px; }
+.i331 { background-position: -0px -2195px; width: 144px; height: 34px; }
+.i311 { background-position: -0px -2229px; width: 142px; height: 34px; }
+.i120 { background-position: -0px -2263px; width: 136px; height: 21px; }
+.i172 { background-position: -136px -2263px; width: 132px; height: 14px; }
+.i491 { background-position: -144px -2195px; width: 127px; height: 14px; }
+.i670 { background-position: -144px -2209px; width: 125px; height: 44px; }
+.i671 { background-position: -136px -2277px; width: 125px; height: 44px; }
+.i190 { background-position: -153px -2092px; width: 119px; height: 21px; }
+.i171 { background-position: -153px -2113px; width: 118px; height: 14px; }
+.i481 { background-position: -155px -2030px; width: 117px; height: 18px; }
+.i633 { background-position: -153px -2127px; width: 116px; height: 54px; }
+.i480 { background-position: -157px -2009px; width: 115px; height: 18px; }
+.i631 { background-position: -0px -2284px; width: 115px; height: 55px; }
+.i340 { background-position: -161px -1923px; width: 110px; height: 18px; }
+.i360 { background-position: -161px -1941px; width: 109px; height: 18px; }
+.i690 { background-position: -160px -1959px; width: 109px; height: 18px; }
+.i691 { background-position: -160px -1977px; width: 108px; height: 18px; }
+.i380 { background-position: -168px -1837px; width: 104px; height: 21px; }
+.i681 { background-position: -168px -1858px; width: 104px; height: 18px; }
+.i710 { background-position: -168px -1876px; width: 104px; height: 18px; }
+.i680 { background-position: -169px -1816px; width: 102px; height: 18px; }
+.i610 { background-position: -171px -1774px; width: 101px; height: 18px; }
+.i611 { background-position: -171px -1792px; width: 100px; height: 18px; }
+.i110 { background-position: -175px -1698px; width: 97px; height: 18px; }
+.i130 { background-position: -178px -1514px; width: 94px; height: 18px; }
+.i711 { background-position: -178px -1532px; width: 94px; height: 18px; }
+.i540 { background-position: -181px -1350px; width: 91px; height: 18px; }
+.i510 { background-position: -181px -1368px; width: 89px; height: 18px; }
+.i660 { background-position: -185px -1288px; width: 86px; height: 18px; }
+.i050 { background-position: -187px -1267px; width: 85px; height: 18px; }
+.i060 { background-position: -185px -1306px; width: 85px; height: 18px; }
+.i541 { background-position: -184px -1324px; width: 85px; height: 18px; }
+.i661 { background-position: -181px -1386px; width: 85px; height: 18px; }
+.i010 { background-position: -180px -1404px; width: 84px; height: 18px; }
+.i020 { background-position: -180px -1422px; width: 84px; height: 18px; }
+.i551 { background-position: -179px -1440px; width: 82px; height: 54px; }
+.i030 { background-position: -194px -1198px; width: 78px; height: 18px; }
+.i700 { background-position: -193px -1216px; width: 77px; height: 18px; }
+.i701 { background-position: -196px -1142px; width: 76px; height: 18px; }
+.i262 { background-position: -196px -1160px; width: 72px; height: 14px; }
+.i080 { background-position: -205px -1107px; width: 67px; height: 18px; }
+.i470 { background-position: -212px -977px; width: 60px; height: 18px; }
+.i370 { background-position: -212px -995px; width: 58px; height: 18px; }
+.i261 { background-position: -215px -931px; width: 57px; height: 14px; }
+.i390 { background-position: -215px -945px; width: 57px; height: 18px; }
+.i100 { background-position: -216px -910px; width: 52px; height: 17px; }
+.i570 { background-position: -223px -889px; width: 45px; height: 18px; }
+.i040 { background-position: -207px -1013px; width: 42px; height: 17px; }
+.i090 { background-position: -207px -1030px; width: 42px; height: 17px; }
+
+@media screen and (max-width: 480px) {
+
+div.s {
+padding: 0 0.75em;
+}
+
+}
+
+@media screen and (max-width: 410px) {
+
+a.w {
+line-height: 2.7;
+}
+
+a.f, span.f {
+display: block;
+}
+
+span.m {
+display: none;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+
+span.t {
+display: block;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+div.s {
+padding: 0 0.3em;
+}
+
+}
